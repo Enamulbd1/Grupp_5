@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 const { ServerApiVersion } = require('mongodb');
 
-const uri = "mongodb+srv://saccorezais:grupp5@webbshop.u8a1wvg.mongodb.net/?retryWrites=true&w=majority&appName=webbshop";
+const uri = "mongodb+srv://Enamul:Group5@webbshop.u8a1wvg.mongodb.net/?retryWrites=true&w=majority&appName=webbshop";
 
 mongoose.connect(uri, {
-  dbName: 'test1',
+  dbName: 'Enamul',
   serverApi: ServerApiVersion.v1
 }).then(() => console.log('Successfully connected to MongoDB using Mongoose!'))
   .catch(err => console.error('Connection error', err));
